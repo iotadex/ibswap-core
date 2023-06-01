@@ -12,6 +12,9 @@ async function main() {
 
   await uv3.deployed();
 
+  const code = await uv3.POOL_INIT_CODE_HASH();
+  console.log(`Init code : ${code}`);
+
   console.log(`Deployed UniswapV3Factory to ${uv3.address}`);
 }
 
