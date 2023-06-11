@@ -20,4 +20,8 @@ interface IUniswapV3PoolOwnerActions {
         uint128 amount0Requested,
         uint128 amount1Requested
     ) external returns (uint128 amount0, uint128 amount1);
+
+    /// @notice Set the contract address of IIbswapNftEquip
+    /// @param equip contract address
+    function setIIbswapNftEquip(address equip) external;
 }

@@ -752,6 +752,19 @@
       "type": "function"
     },
     {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "equip",
+          "type": "address"
+        }
+      ],
+      "name": "setIIbswapNftEquip",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
       "inputs": [],
       "name": "slot0",
       "outputs": [
